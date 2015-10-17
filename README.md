@@ -8,6 +8,10 @@ Description: A set of programs to calculate extraterrestrial solar irradiance, s
 
 Calculates for a given geographic location the extraterrestrial irradiance (i.e. without effect of the atmosphere) on a hoizontal surface (on Earth) in W/m2.
 
+## rad_model_davies_and_hay.pro
+
+Models the diffuse and direct (and total) solar irradiance on a horizontal land surface (for clear-sky conditions) for a given latitude, date / time. Follows the parameterization of Davies and Hay (1979).
+
 ## rad_relative_sun_position.pro
 
 Calculates the relative position of the sun (solar altitude, solar azimuth) for a given julian time/date in UTC and given coordinates (decimal longitude, and latitude).
